@@ -1,3 +1,8 @@
-{{#each beers}} 
-
-{{/each}}
+<h1>Beers</h1>
+<div class="row">
+  {{#each beers}}
+    <div class="col-md-4">
+      {{> card}}
+    </div>
+  {{/each}}
+</div>

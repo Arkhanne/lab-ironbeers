@@ -65,3 +65,12 @@ img {
   border-bottom: 1px solid #666666;
   border-left: 1px solid #CCCCCC;
 }
+
+.center {
+  margin: 0 auto;
+}
+
+.img-fluid {
+  height: 100px;
+  width: auto;
+}
